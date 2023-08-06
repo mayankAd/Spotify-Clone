@@ -1,0 +1,37 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 350px;
+  height: 100vh;
+  background-color: rgb(89, 0, 37);
+  gap: 5px;
+}
+
+.left-up {
+  height: 120px;
+  background-color: orange;
+}
+
+.left-down {
+  height: calc(100vh - 120px);
+  width: 100%;
+  background-color: fuchsia;
+}
+
+.right-section {
+  width: calc(100vw - 350px);
+  height: 100vh;
+  background-color: blueviolet;
+}
